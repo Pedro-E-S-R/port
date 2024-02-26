@@ -1,14 +1,13 @@
 package entity;
 
 public class PessoaConta {
-    String nome;
-    String sobrenome;
-    String cpf;
-    String login;
-    Long senha;
-    double saldo;
-    double deposito;
-    double saque;
+   private String nome;
+   private String sobrenome;
+   private String cpf;
+   private String login;
+   private Long senha;
+   private double saldo;
+
 
     public PessoaConta(String nome, String sobrenome, String cpf) {
         this.nome = nome;
